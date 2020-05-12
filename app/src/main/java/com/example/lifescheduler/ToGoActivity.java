@@ -1,6 +1,5 @@
 package com.example.lifescheduler;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentActivity;
 
 import android.os.Bundle;
@@ -29,6 +28,7 @@ public class ToGoActivity extends FragmentActivity implements OnMapReadyCallback
         mapAPI = googleMap;
         LatLng ASE = new LatLng(44.447413, 26.099167);
         mapAPI.addMarker(new MarkerOptions().position(ASE).title("CSIE"));
-        mapAPI.moveCamera(CameraUpdateFactory.newLatLng(ASE));
+        mapAPI.moveCamera(CameraUpdateFactory.newLatLngZoom(ASE, 16));
+
     }
 }
