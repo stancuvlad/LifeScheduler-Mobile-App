@@ -39,13 +39,13 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        Facebook_Button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MenuActivity.class);
-                startActivity(intent);
-            }
-        });
+//        Facebook_Button.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity.this, MenuActivity.class);
+//                startActivity(intent);
+//            }
+//        });
 
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)

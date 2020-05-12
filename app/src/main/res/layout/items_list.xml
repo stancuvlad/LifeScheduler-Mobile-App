@@ -7,32 +7,28 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center_vertical">
-        <GridLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center">
+        android:orientation="horizontal">
 
-            <TextView
-                android:layout_row="0"
-                android:layout_column="0"
-                android:layout_width="125dp"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textSize="18sp"
-                android:id="@+id/nameTextView"
-                android:textColor="#000000"/>
-            <TextView
-                android:layout_row="0"
-                android:layout_column="1"
-                android:layout_width="125dp"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textSize="18sp"
-                android:id="@+id/descriptionTextView"
-                android:layout_marginStart="10dp"
-                android:textColor="#000000"/>
-        </GridLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:id="@+id/nameTextView"
+            android:layout_weight=".50"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:textSize="18sp"
+            android:id="@+id/descriptionTextView"
+            android:layout_marginStart="10dp"
+            android:layout_weight=".50"
+            android:textColor="#000000"/>
+
     </LinearLayout>
+
 </LinearLayout>

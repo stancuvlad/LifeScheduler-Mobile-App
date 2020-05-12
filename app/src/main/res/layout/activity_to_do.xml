@@ -8,9 +8,52 @@
     android:orientation="vertical"
     android:gravity="center">
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="right"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="Add something to the To do List"/>
+
+        <Button
+            android:id="@+id/addItemButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_button"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:text="+" >
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="30dp"
+        android:text="To do list"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:id="@+id/todoTitleTextView" />
+
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:choiceMode="singleChoice"
+        android:listSelector="#30666666"
         android:id="@+id/itemsList">
     </ListView>
 
