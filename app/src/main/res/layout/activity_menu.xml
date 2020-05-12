@@ -79,22 +79,29 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:orientation="horizontal">
 
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:width="180dp"
+                        android:width="170dp"
                         android:height="130dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
                         android:text="To Do"
+                        android:background="@drawable/section_button_shape_todo"
                         android:id="@+id/todo_section" />
 
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:width="180dp"
+                        android:width="170dp"
                         android:height="130dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginBottom="5dp"
                         android:text="To go"
+                        android:background="@drawable/section_button_shape_togo"
                         android:id="@+id/togo_section" />
 
                 </LinearLayout>
@@ -102,22 +109,29 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:orientation="horizontal">
 
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:width="180dp"
+                        android:width="170dp"
                         android:height="130dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginTop="5dp"
                         android:text="To Buy"
+                        android:background="@drawable/section_button_shape_tobuy"
                         android:id="@+id/tosado_section" />
 
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:width="180dp"
+                        android:width="170dp"
                         android:height="130dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
                         android:text="To Pay"
+                        android:background="@drawable/section_button_shape_topay"
                         android:id="@+id/placasetobe_section" />
 
                 </LinearLayout>
